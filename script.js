@@ -20,8 +20,10 @@ function reset() {
 function calculate() {
   try {
     let result = eval(expression);
+    
     if (Number.isFinite(result)) {
-      display.value = result.toFixed(3); 
+      //display.value = result.toFixed(3); 
+      display.value = parseFloat(result.toPrecision(3)).toString();
       expression = '';
     } else {
       display.value = 'Error';

@@ -23,6 +23,9 @@ body {
     font-weight: 700;
     background-color: #00000058;
     color:#fff;
+    font-family: Segoe UI;
+    line-height: 74.28px;
+    text-align:right;
   }
   
   .keys {
